@@ -6,7 +6,8 @@
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
   color: #fff;
   background-color: #101010;
 }
