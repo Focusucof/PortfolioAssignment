@@ -89,6 +89,11 @@ nav {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 
 /* Contact Section */
 #contact {
