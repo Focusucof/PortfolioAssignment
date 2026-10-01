@@ -89,8 +89,37 @@ nav {
   margin: 20px;
   padding: 20px;
   min-width: 200px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 20px;
   transition: transform 0.2s, box-shadow 0.2s;
-} 
+}
+
+.card-img {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  width: 120px;
+  height: auto;
+  align-self: center;
+}
+
+.card h3,
+.card p {
+  grid-column: 2;
+}
+
+@media (max-width: 480px) {
+  .card {
+    grid-template-columns: 1fr;
+  }
+
+  .card-img,
+  .card h3,
+  .card p {
+    grid-column: 1;
+    grid-row: auto;
+  }
+}
 
 .card:hover {
   transform: translateY(-6px);
