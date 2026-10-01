@@ -16,6 +16,10 @@ section {
   padding: 40px 20px;
 }
 
+nav {
+  background-image: linear-gradient(to top, #101010, #2c2c2c);
+}
+
 .logo {
   float: left;
   font-weight: bold;
@@ -76,7 +80,6 @@ section {
   border-radius: 20px;
   margin: 20px;
   padding: 20px;
-  flex: 1;
   min-width: 200px;
   transition: transform 0.2s, box-shadow 0.2s;
 } 
@@ -84,4 +87,52 @@ section {
 .card:hover {
   transform: translateY(-6px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Contact Section */
+#contact {
+  padding: 60px 20px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+form {
+  border: 1px solid #1f1f1f;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+  min-width: 200px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #1f1f1f;
+  border-radius: 5px;
+  background-color: #2c2c2c;
+  color: #fff;
+}
+
+.submit {
+  background-color: #ffffd3;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px auto;
+  display: block;
+}
+
+#message-label {
+  padding-top: 100px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 200px;
+  max-height: 300px;
 }
