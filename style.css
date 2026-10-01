@@ -16,8 +16,20 @@ section {
   padding: 40px 20px;
 }
 
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #101010;
+  color: #fff;
+  display: block;
+}
+
 nav {
   background-image: linear-gradient(to top, #101010, #2c2c2c);
+}
+
+.container {
+  min-height: 90vh;
 }
 
 .navbar {
