@@ -1,0 +1,10 @@
+.card {
+    grid-template-columns: 1fr;
+}
+
+.card-img,
+.card h3,
+.card p {
+    grid-column: 1;
+    grid-row: auto;
+}

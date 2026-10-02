@@ -1,0 +1,21 @@
+.logo {
+    float: none;
+    display: block;
+    text-align: center;
+}
+
+.nav-links {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.nav-links li {
+    display: table-cell;
+    text-align: center;
+}
+
+.nav-links a {
+    padding: 12px 4px;
+    font-size: 0.85rem;
+}
