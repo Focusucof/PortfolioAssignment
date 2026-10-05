@@ -16,6 +16,13 @@ section {
   padding: 40px 20px;
 }
 
+main {
+  padding: 60px 20px;
+  width: 60%;
+  margin: 0 auto;
+
+}
+
 footer {
   text-align: center;
   padding: 20px;
