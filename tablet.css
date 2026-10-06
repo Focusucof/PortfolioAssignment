@@ -1,21 +1,208 @@
+/* General */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+  color: #fff;
+  background-color: #101010;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: ui-sans-serif, system-ui, -apple-system, Arial,  sans-serif;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+  line-height: 0.9;
+}
+
+.highlight {
+  color: #E9D3B6;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+main {
+  padding: 60px 20px;
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #101010;
+  color: #fff;
+  display: block;
+}
+
+nav {
+  background-image: linear-gradient(to top, #101010, #2c2c2c);
+}
+
+.container {
+  min-height: 90vh;
+}
+
+.navbar {
+  display: table;
+  width: 100%;
+}
+
 .logo {
-    float: none;
-    display: block;
-    text-align: center;
+  display: table-cell;
+  vertical-align: center;
+  padding: 20px 20px;
 }
 
 .nav-links {
-    display: table;
-    width: 100%;
-    table-layout: fixed;
+  display: table-cell;
+  vertical-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
 }
 
 .nav-links li {
-    display: table-cell;
-    text-align: center;
+  display: inline-block;
 }
 
 .nav-links a {
-    padding: 12px 4px;
-    font-size: 0.85rem;
+  display: block;
+  color: #fff;
+  padding: 16px 14px;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+
+/* Projects Section */
+#projects {
+  padding: 60px 20px;
+}
+
+.card {
+  border: 1px solid #1f1f1f;
+  border-radius: 20px;
+  margin: 20px 0;
+  padding: 20px;
+  min-width: 200px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-img {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  width: 100px;
+  height: auto;
+  align-self: center;
+  border-radius: 10px; /* use formula for border radius (inner radius = outer radius - padding) */
+}
+
+.card h2,
+.card p {
+  grid-column: 2;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 
+Uses oklab for a smoother gradient
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/linear-gradient#formal_syntax 
+*/
+
+#card-one {
+  background-image: linear-gradient(45deg in oklab, #101010, #BAA991);
+}
+
+#card-two {
+  background-image: linear-gradient(45deg in oklab, #101010, #826D51);
+}
+
+#card-three {
+  background-image: linear-gradient(45deg in oklab, #101010,#4F3B21);
+}
+
+#card-four {
+  background-image: linear-gradient(45deg in oklab, #101010, #33220B);
+}
+
+
+/* Contact Section */
+#contact {
+  padding: 60px 20px;
+}
+
+form {
+  border: 1px solid #1f1f1f;
+  border-radius: 20px;
+  margin: 20px 0;
+  padding: 20px;
+  min-width: 200px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #1f1f1f;
+  border-radius: 5px;
+  background-color: #2c2c2c;
+  color: #fff;
+}
+
+.submit {
+  background-color: #E9D3B6;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px auto;
+  display: block;
+}
+
+#message-label {
+  padding-top: 100px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 200px;
+  max-height: 300px;
 }
