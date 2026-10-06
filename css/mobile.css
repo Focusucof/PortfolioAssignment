@@ -52,6 +52,10 @@ footer {
   display: block;
 }
 
+footer p a {
+  color: #658393;
+}
+
 nav {
   background-image: linear-gradient(to top, #101010, #2c2c2c);
 }
