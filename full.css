@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 7rem;
+  font-size: 5rem;
   margin-bottom: 20px;
   font-weight: bold;
   letter-spacing: -0.025em;
@@ -108,7 +108,7 @@ nav {
 .card {
   border: 1px solid #1f1f1f;
   border-radius: 20px;
-  margin: 20px;
+  margin: 20px 0;
   padding: 20px;
   min-width: 200px;
   display: grid;
@@ -123,6 +123,7 @@ nav {
   width: 120px;
   height: auto;
   align-self: center;
+  border-radius: 10px; /* use formula for border radius (inner radius = outer radius - padding) */
 }
 
 .card h3,
@@ -138,6 +139,27 @@ nav {
 .card-link {
   text-decoration: none;
   color: inherit;
+}
+
+/* 
+Uses oklab for a smoother gradient
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/linear-gradient#formal_syntax 
+*/
+
+#card-one {
+  background-image: linear-gradient(45deg in oklab, #101010, #BAA991);
+}
+
+#card-two {
+  background-image: linear-gradient(45deg in oklab, #101010, #826D51);
+}
+
+#card-three {
+  background-image: linear-gradient(45deg in oklab, #101010,#4F3B21);
+}
+
+#card-four {
+  background-image: linear-gradient(45deg in oklab, #101010, #33220B);
 }
 
 
