@@ -173,7 +173,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/linea
 form {
   border: 1px solid #1f1f1f;
   border-radius: 20px;
-  margin: 20px;
+  margin: 20px 0;
   padding: 20px;
   min-width: 200px;
   transition: transform 0.2s, box-shadow 0.2s;
