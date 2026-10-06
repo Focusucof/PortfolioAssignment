@@ -29,6 +29,10 @@ h1 {
   color: #E9D3B6;
 }
 
+.highlight-blue {
+  color: #B5D6E8;
+}
+
 section {
   padding: 40px 20px;
 }
@@ -146,19 +150,19 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/linea
 */
 
 #card-one {
-  background-image: linear-gradient(45deg in oklab, #101010, #BAA991);
+  background-image: linear-gradient(45deg in oklab, #101010, #B5D6E8);
 }
 
 #card-two {
-  background-image: linear-gradient(45deg in oklab, #101010, #826D51);
+  background-image: linear-gradient(45deg in oklab, #101010, #658393);
 }
 
 #card-three {
-  background-image: linear-gradient(45deg in oklab, #101010,#4F3B21);
+  background-image: linear-gradient(45deg in oklab, #101010,#A89882);
 }
 
 #card-four {
-  background-image: linear-gradient(45deg in oklab, #101010, #33220B);
+  background-image: linear-gradient(45deg in oklab, #101010, #695336);
 }
 
 
