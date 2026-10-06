@@ -29,8 +29,16 @@ h1 {
   color: #E9D3B6;
 }
 
+.highlight-dark {
+  color: #4A433A;
+}
+
 section {
   padding: 40px 20px;
+}
+
+#about section {
+  padding: 1% 0;
 }
 
 main {
