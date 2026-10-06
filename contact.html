@@ -30,21 +30,20 @@
         </header>
         <section id="contact">
             <h1>Get In <span class="highlight">Touch</span></h1>
-            <form>
-                <label>Name</label>
-                <input type="text">
+            <form action="mailto:devin.boodoo@ontariotechu.net" method="post" enctype="text/plain" name="form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
 
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
 
-                <label>Email</label>
-                <input type="email">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" required>
 
-                <label>Phone</label>
-                <input type="tel">
+                <label for="message" id="message-label">Message</label>
+                <textarea id="message" name="message" maxlength="500" required></textarea>
 
-                <label id="message-label">Message</label>
-                <textarea></textarea>
-
-                <button class="submit">Send</button>
+                <button type="submit" class="submit">Send</button>
             </form>
         </section>
 
