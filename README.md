@@ -46,11 +46,11 @@ I also used `<div class="container">` to set the minimum page height so the foot
 
 Each page loads the appropriate CSS file with the media attribute in the link tag. There are 3 CSS files, 1 for full sized displays, 1 for tablets, and 1 for mobile.
 
-| Viewport | CSS file | Width range |
-|---|---|---|
-| Mobile | `css/mobile.css` | up to 480px |
-| Tablet | `css/tablet.css` | 481px to 959px |
-| Laptop | `css/full.css` | 960px and up |
+| Viewport | CSS file | Width range | Why this size |
+|---|---|---|---|
+| Mobile | `css/mobile.css` | up to 480px | Most phones are around 480px. This is also a key point where elements that were very long should be getting stacked or else they won't render properly |
+| Tablet | `css/tablet.css` | 481px to 959px | This range covers tablets sized screens. Here I reduced the margins and made text slightly smaller so that less space is wasted |
+| Laptop | `css/full.css` | 960px and up | 960px is where a full sized layout fits, so everything from here up uses the roomier layout with the content kept at 60% width so lines of text don't get too long and everything can be focused in the center. |
 
 What changes between sizes:
 
