@@ -101,8 +101,6 @@ nav {
 /* Projects Section */
 #projects {
   padding: 60px 20px;
-  width: 60%;
-  margin: 0 auto;
 }
 
 .card {
@@ -166,8 +164,6 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/linea
 /* Contact Section */
 #contact {
   padding: 60px 20px;
-  width: 60%;
-  margin: 0 auto;
 }
 
 form {
