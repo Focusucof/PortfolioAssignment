@@ -230,3 +230,15 @@ textarea {
   margin: 16px auto;
   margin-top: 80px;
 }
+
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-links li a {
+  color: #658393;
+}

@@ -234,3 +234,14 @@ textarea {
   margin: 20px auto;
   margin-top: 100px;
 }
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-links li a {
+  color: #658393;
+}
