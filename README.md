@@ -98,8 +98,8 @@ The form uses HTML5 validation for each field:
 |---|---|---|
 | HTML | W3C Markup Validator (https://validator.w3.org/) | TODO: |
 | CSS | W3C CSS Validator (https://jigsaw.w3.org/css-validator/) | TODO: |
-| Links | W3C Link Checker (https://validator.w3.org/checklink) | TODO: |
-| Accessibility | WAVE (https://wave.webaim.org/) | TODO: |
+| Links | W3C Link Checker (https://validator.w3.org/checklink) | 0 Errors |
+| Accessibility | WAVE (https://wave.webaim.org/) | 0 Errors |
 
 ## Version Control and Deployment
 
