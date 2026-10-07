@@ -1,3 +1,5 @@
+/* Color scheme hexadecimal values (Adobe Color): E9D3B6 B5D6E8 658393 A89882 695336 */
+
 /* General */
 
 * {
@@ -147,24 +149,23 @@ nav {
   color: inherit;
 }
 
-/* 
-Uses oklab for a smoother gradient
-https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/linear-gradient#formal_syntax 
-*/
-
 #card-one {
+  background-color: #101010;
   background-image: linear-gradient(45deg, #101010, #B5D6E8);
 }
 
 #card-two {
+  background-color: #101010;
   background-image: linear-gradient(45deg, #101010, #658393);
 }
 
 #card-three {
+  background-color: #101010;
   background-image: linear-gradient(45deg, #101010,#A89882);
 }
 
 #card-four {
+  background-color: #101010;
   background-image: linear-gradient(45deg, #101010, #695336);
 }
 
@@ -212,4 +213,20 @@ textarea {
   resize: vertical;
   min-height: 200px;
   max-height: 300px;
+}
+
+/* About video */
+.about-video {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: block;
+  margin: 16px auto;
+  margin-top: 80px;
 }

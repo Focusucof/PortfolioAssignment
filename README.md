@@ -64,7 +64,7 @@ What changes between sizes:
 ## Gradients
 
 - **Linear gradient:** the navigation bar on every page uses `linear-gradient(to top, #101010, #2c2c2c)`.
-- **Angle linear gradient:** each project card on `projects.html` uses `linear-gradient(45deg in oklab, #101010, <card colour>)`, with a different colour for each card (see the colour table below). (see citations for oklab use)
+- **Angle linear gradient:** each project card on `projects.html` uses `linear-gradient(45deg, #101010, <card colour>)`, with a different colour for each card (see the colour table below).
 
 ## Colour Palette
 
@@ -96,9 +96,10 @@ The form uses HTML5 validation for each field:
 
 | Check | Tool | Result |
 |---|---|---|
-| HTML | W3C Markup Validator (https://validator.w3.org/) | TODO: |
-| CSS | W3C CSS Validator (https://jigsaw.w3.org/css-validator/) | TODO: |
+| HTML | W3C Markup Validator (https://validator.w3.org/) | 0 Errors |
+| CSS | W3C CSS Validator (https://jigsaw.w3.org/css-validator/) | 0 Errors |
 | Links | W3C Link Checker (https://validator.w3.org/checklink) | 0 Errors |
+| Spell Check| Datayze (https://datayze.com/website-spell-checker) | Only flagged my name, acronyms, and names of my projects|
 | Accessibility | WAVE (https://wave.webaim.org/) | 0 Errors |
 
 ## Version Control and Deployment
@@ -109,6 +110,5 @@ The form uses HTML5 validation for each field:
 ## Sources and Citations
 
 - Code structure for the video, form and CSS follows code shown in lecture.
-- Gradient colour interpolation (`in oklab`) syntax: MDN Web Docs, `linear-gradient()`: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/linear-gradient
 - Font: JetBrains Mono from Google Fonts: https://fonts.google.com/specimen/JetBrains+Mono
 - Colour scheme: Adobe Color: https://color.adobe.com/create
